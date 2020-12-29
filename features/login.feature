@@ -20,3 +20,7 @@ Feature: The Internet Guinea Pig Website
     Then  "Delete" button should be there
 
 @gargi @regression @test
+Scenario: [QA-55]:  verify the "Broken Images"
+Given I am on the home page
+When I click on "Broken Images"
+Then I should be on "Broken Images" home page
