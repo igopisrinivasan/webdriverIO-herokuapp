@@ -1,10 +1,10 @@
 {
-  "name": "webdriverIO-herokuapp",
+  "name": "webdriver-herokuapp",
   "version": "1.0.0",
   "description": "Automation with Welcome to the-internet using WebDriverIO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio run ./wdio.config.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "@wdio/sync": "^7.0.3",
     "chromedriver": "^88.0.0",
     "ts-node": "^9.1.1",
-    "wdio-chromedriver-service": "^6.0.4"
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-cucumber-reporter": "^0.0.2"
   }
 }
